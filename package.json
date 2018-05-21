@@ -24,6 +24,9 @@
     "explorermobile >= 11",
     "android >= 4.4"
   ],
+  "nodemonConfig": {
+    "ignore": ["assets", "src"]
+  },
   "dependencies": {
     "@shopify/polaris": "^1.8.3",
     "@shopify/shopify-express": "^1.0.0-alpha.7",
